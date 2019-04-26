@@ -1,8 +1,8 @@
 class Piece
-    attr_reader :piece
+    attr_reader :board
 
-    def initialize(piece = nil)
-        @piece = piece 
+    def initialize(board)
+        @board = board
     end
 
 end

@@ -5,7 +5,7 @@ class Board
     attr_accessor :grid
 
     def initialize
-        @sentinel = Piece.new
+        @sentinel = Piece.new(self)
         @grid = Array.new(8) { Array.new(8) { @sentinel } }
 
     end
